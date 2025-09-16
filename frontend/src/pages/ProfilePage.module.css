@@ -1,0 +1,142 @@
+.profilePageContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 32px 16px 64px 16px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3f4f6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #6366f1;
+  font-weight: bold;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.userName {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.userRole {
+  display: inline-block;
+  font-size: 0.95rem;
+  padding: 2px 12px;
+  border-radius: 12px;
+  margin-left: 8px;
+  background: #f1f5f9;
+  color: #6366f1;
+  font-weight: 600;
+}
+
+.statsRow {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+.statCard {
+  flex: 1;
+  background: #f8fafc;
+  border-radius: 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  padding: 18px 0 12px 0;
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #6366f1;
+}
+
+.sectionTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 28px 0 12px 0;
+}
+
+.bookmarkGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+  margin-bottom: 12px;
+}
+
+.bookmarkCard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  padding: 10px 12px 12px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bookmarkCover {
+  width: 46px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #e0e7ff;
+  box-shadow: 0 1px 3px rgba(99,102,241,0.06);
+}
+
+.bookmarkInfo {
+  flex: 1;
+}
+
+.bookmarkTitle {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+.bookmarkContinue {
+  font-size: 0.98rem;
+  color: #6366f1;
+  text-decoration: underline;
+  margin-left: 4px;
+}
+
+@media (max-width: 600px) {
+  .profileHeader {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .avatar {
+    width: 72px;
+    height: 72px;
+    font-size: 32px;
+  }
+  .statsRow {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bookmarkGrid {
+    grid-template-columns: 1fr;
+  }
+  .userRole{
+    margin: 0px;
+  }
+}

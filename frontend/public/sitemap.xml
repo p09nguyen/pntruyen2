@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Trang chính -->
+  <url><loc>https://pntruyen.shop/</loc></url>
+  <url><loc>https://pntruyen.shop/login</loc></url>
+  <url><loc>https://pntruyen.shop/register</loc></url>
+  <url><loc>https://pntruyen.shop/forgot-password</loc></url>
+  <url><loc>https://pntruyen.shop/reset-password</loc></url>
+  <url><loc>https://pntruyen.shop/profile</loc></url>
+  <url><loc>https://pntruyen.shop/feedback</loc></url>
+  <!-- Route động, cần bổ sung động từ DB nếu muốn -->
+  <url><loc>https://pntruyen.shop/truyen/slug-vi-du</loc></url>
+  <url><loc>https://pntruyen.shop/truyen/slug-truyen/slug-chuong</loc></url>
+  <url><loc>https://pntruyen.shop/story/1</loc></url>
+  <url><loc>https://pntruyen.shop/chapter/1</loc></url>
+  <!-- Admin (nên để noindex nếu không public) -->
+  <url><loc>https://pntruyen.shop/admin</loc></url>
+  <url><loc>https://pntruyen.shop/admin/stats</loc></url>
+  <url><loc>https://pntruyen.shop/admin/stories</loc></url>
+  <url><loc>https://pntruyen.shop/admin/stories/new</loc></url>
+  <url><loc>https://pntruyen.shop/admin/stories/1/edit</loc></url>
+  <url><loc>https://pntruyen.shop/admin/feedback</loc></url>
+  <url><loc>https://pntruyen.shop/admin/chapter-reports</loc></url>
+  <url><loc>https://pntruyen.shop/admin/chapters/new</loc></url>
+  <url><loc>https://pntruyen.shop/admin/chapters/bulk-add</loc></url>
+  <url><loc>https://pntruyen.shop/admin/chapters/1/edit</loc></url>
+  <url><loc>https://pntruyen.shop/admin/users</loc></url>
+  <url><loc>https://pntruyen.shop/admin/categories</loc></url>
+  <url><loc>https://pntruyen.shop/admin/chapters</loc></url>
+  <url><loc>https://pntruyen.shop/admin/featured-stories</loc></url>
+  <url><loc>https://pntruyen.shop/admin/comments</loc></url>
+</urlset>

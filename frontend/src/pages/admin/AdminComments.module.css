@@ -1,0 +1,62 @@
+.adminComments {
+  background: #fff;
+  border-radius: 10px;
+  padding: 28px 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  max-width: 1050px;
+  margin: 32px auto;
+}
+.adminComments h2 {
+  font-size: 1.45rem;
+  margin-bottom: 18px;
+  color: #2d3748;
+}
+.searchBox {
+  width: 320px;
+  padding: 7px 12px;
+  font-size: 1rem;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s;
+}
+.searchBox:focus {
+  border: 1.5px solid #6d00c7;
+}
+.commentTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fafbfc;
+}
+.commentTable th, .commentTable td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #ececec;
+  text-align: left;
+}
+.commentTable th {
+  background: #f2f2f9;
+  color: #333;
+  font-weight: 600;
+}
+.commentTable tr:last-child td {
+  border-bottom: none;
+}
+.deleteBtn {
+  background: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 14px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.deleteBtn:hover {
+  background: #b83232;
+}
+.error {
+  color: #b83232;
+  font-size: 1.1rem;
+  margin: 16px 0;
+}

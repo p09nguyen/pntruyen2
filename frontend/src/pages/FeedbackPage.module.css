@@ -1,0 +1,63 @@
+.feedbackPageWrapper {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #e0e0e0;
+}
+
+.feedbackTitle {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.feedbackTypeGroup {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.feedbackTextarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 18px;
+  min-height: 100px;
+  resize: vertical;
+}
+
+.feedbackSubmitBtn {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  background: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.feedbackSubmitBtn:disabled {
+  background: #bdbdbd;
+  cursor: not-allowed;
+}
+
+.feedbackSuccess {
+  color: #388e3c;
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.feedbackError {
+  color: #d32f2f;
+  margin-top: 16px;
+  text-align: center;
+  font-weight: 500;
+}

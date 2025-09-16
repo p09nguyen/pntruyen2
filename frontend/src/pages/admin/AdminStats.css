@@ -1,0 +1,121 @@
+.admin-stats {
+  max-width: 1200px;
+  margin: 30px auto;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 36px 36px 24px 36px;
+}
+.admin-stats h2 {
+  color: #1976d2;
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.stats-header {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 32px;
+  font-size: 1.1rem;
+}
+
+.stats-summary {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+.stats-summary > div {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8fbff 100%);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(25,118,210,0.07);
+  padding: 22px 32px 16px 32px;
+  min-width: 120px;
+  min-height: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.08rem;
+  font-weight: 500;
+  color: #1976d2;
+  transition: box-shadow 0.2s;
+}
+.stats-summary > div:hover {
+  box-shadow: 0 6px 24px rgba(25,118,210,0.14);
+  background: linear-gradient(135deg, #d0e6ff 0%, #f8fbff 100%);
+}
+.stats-summary > div span {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1565c0;
+  margin-bottom: 4px;
+  display: block;
+}
+@media (max-width: 700px) {
+  .stats-summary {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .stats-summary > div {
+    min-width: 70px;
+    padding: 18px 8vw 12px 8vw;
+    font-size: 1rem;
+  }
+  .stats-summary > div span {
+    font-size: 1.5rem;
+  }
+}
+
+.stats-header .stat {
+  font-weight: 500;
+  color: #333;
+}
+.stats-header .stat span {
+  color: #1976d2;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.stats-charts {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+.stats-charts > div {
+  flex: 1 1 360px;
+  min-width: 320px;
+  background: #f8fbff;
+  border-radius: 12px;
+  padding: 24px 18px 18px 18px;
+  box-shadow: 0 2px 8px rgba(25,118,210,0.04);
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.stats-charts h3 {
+  font-size: 1.13rem;
+  color: #1976d2;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.stats-charts .chart-container {
+  height: 260px;
+  min-height: 260px;
+  max-height: 260px;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .stats-charts {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .admin-stats {
+    padding: 18px 4vw 12px 4vw;
+  }
+}
