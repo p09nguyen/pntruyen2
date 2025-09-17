@@ -70,12 +70,12 @@ $message = "Xin chào,\n\nBạn hoặc ai đó đã yêu cầu đặt lại mậ
 $mail = new PHPMailer(true);
 try {
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = '?';
     $mail->SMTPAuth = true;
-    $mail->Username = 'np7098037@gmail.com'; // Thay bằng email Gmail của bạn
-    $mail->Password = 'orun vypw visg vsll';   // Dán mật khẩu ứng dụng vừa tạo
+    $mail->Username = '?'; // Thay bằng email Gmail của bạn
+    $mail->Password = '?';   // Dán mật khẩu ứng dụng vừa tạo
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-    $mail->Port = 587;
+    $mail->Port = ?;
     $mail->setFrom('yourgmail@gmail.com', 'no-reply@pntruyen.shop');
     $mail->setFrom('noreply@pntruyen.shop', 'no-reply@pntruyen.shop');
     $mail->addAddress($email);
