@@ -1,9 +1,0 @@
-User-agent: *
-Disallow:
-
-# Dynamic sitemap URL
-Sitemap: https://pntruyen.online/api/sitemap.php
-
-# NOTES:
-# - If you change domains, update the Sitemap URL above accordingly.
-# - Google and Bing both accept non-.xml sitemap endpoints (e.g., .php) as long as they return valid XML.

@@ -1,8 +1,8 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "jwqxvnac_pntruyen2_novel_reader";
-    private $username = "jwqxvnac_pntruyen2_phinguyenx";
+    private $db_name = "?";
+    private $username = "?";
     private $password = "Phi912004";
     private $charset = "utf8mb4";
     public $conn;
